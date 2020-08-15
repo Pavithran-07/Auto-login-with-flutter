@@ -22,10 +22,9 @@ class homePageState extends State<homePage>
               Text('Home Page'),
               RaisedButton(
                 onPressed: (){
-                  _auth.signOut().then((value){
+                  _auth.signOut();
                     _auth.logOut();
                     Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => loginPage()));
-                  });
                 },
                 child: Text('Logout'),
               ),
