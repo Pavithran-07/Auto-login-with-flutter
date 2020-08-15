@@ -62,7 +62,7 @@ class AuthService
     var prefs = await SharedPreferences.getInstance();
 
     String _uid = prefs.getString('uid');
-    print("Autologin: "+_uid);
+    //print("Autologin: "+_uid);
     return _uid.toString();
   }
 
