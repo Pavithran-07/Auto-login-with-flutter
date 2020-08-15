@@ -1,2 +1,2 @@
-# Auto-login-with-flutter
-Auto-login for google sign in using flutter
+# Auto-login-with-flutter-for-Google-Signin
+Auto-login for Google sign in using flutter
